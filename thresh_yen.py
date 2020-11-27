@@ -51,11 +51,7 @@ if __name__ == '__main__':
         imgfile = sysls[1]
     elif len(sysls) == 3:
         imgfile = sysls[1]
-        img_method = sysls[2]
-    elif len(sysls) == 4:
-        imgfile = sysls[1]
-        img_method = sysls[2]
-        ndim = int(sysls[3])
+        ndim = int(sysls[2])
 
     # imgfile = 'cat.jpg'
     img = None
